@@ -12,6 +12,7 @@ public class SeleniumHQ {
     private String baseUrl;
 
     public SeleniumHQ(WebDriver driver) {
+    	//Small change to test Github...
         this.driver = driver;
         driver.manage().window().maximize();
         baseUrl = "http://www.google.com";
